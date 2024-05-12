@@ -33,11 +33,17 @@ interface StyledFooterProps {
         letter-spacing: -0.19px;
         color:${({mode}) => mode ? "#5b5e7e" : "#9495a5" };
         cursor: pointer;
+
+        &:focus{
+            color: #3a7cfd;
+        }
+
+        &:hover{
+            color:${({mode}) => mode ? "#e3e4f1" : "#494c6b" };
+        }
+
     }
 
-    .filter button:focus{
-        color: #3a7cfd;
-    }
 
     h2{
         font-size: 14px;
@@ -74,6 +80,10 @@ interface StyledFooterProps {
         letter-spacing: -0.17px;
         color:${({mode}) => mode ? "#5b5e7e" : "#9495a5" };
         cursor: pointer;
+
+        &:hover{
+            color:${({mode}) => mode ? "#e3e4f1" : "#494c6b" };
+        }
     }
 
     @media only screen and (min-width:1440px) {
