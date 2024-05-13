@@ -38,7 +38,7 @@ const StyledMain = styled.main<StyledMainProps>`
 
         &:hover{
             cursor: pointer;
-            /* background-image: linear-gradient(135deg, #5df, #c058f3); */
+            background-image:  linear-gradient(135deg, #5df, #c058f3);
         }
 
         &:checked {
