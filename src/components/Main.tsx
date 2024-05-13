@@ -34,6 +34,8 @@ function Main({ todos, setTodos, filteredTodo, setFilteredTodo, mode }: MainProp
     setFilteredTodo(markedTodo)
   };
 
+  
+
   return (
     <StyledMain mode={mode}>
       <div className="createTodo">
